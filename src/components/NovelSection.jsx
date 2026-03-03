@@ -35,7 +35,7 @@ const NovelSection = () => {
       >
         POBIERZ POWIEŚĆ "NIEMILEWIDZIANI"
         <span className="icon">&#8681;</span>
-        <img src="./src/assets/NIEMILEWIDZIANI - okładka.png" alt="okładka" />
+        <img src="/NEW_MIS/NIEMILEWIDZIANI - okładka.png" alt="okładka" />
       </a>
 
     </div>
