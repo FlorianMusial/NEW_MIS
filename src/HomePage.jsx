@@ -1,0 +1,57 @@
+import HeadStrip from './components/HeadStrip';
+import Menu from './components/Menu';
+import Carousel from "./components/Carousel";
+import NovelSection from "./components/NovelSection";
+import FooterSection from "./components/FooterSection";
+import "./HomePage.scss"
+import { Link } from 'react-router-dom';
+import { Helmet } from 'react-helmet-async';
+
+
+function HomePage() {
+
+  return (
+    <>
+      <Helmet>
+        <title>STRONA GŁÓWNA</title>
+      </Helmet>
+      <section>
+        <HeadStrip />
+        <Menu />
+        <h1 className='expo_header'>Dzień dobry, dobry wieczór<span className='ending'>&nbsp;lub dobranoc :) &#128075;</span></h1>
+        <Carousel />
+        <div className='grid_menu_section'>
+          <h1>N U R T Y :</h1>
+          <div className='entries'>
+            <Link to="/duarealizm">
+              <div className='entry entry_duarealism'>
+                D U A R E A L I Z M to dosyć prostolinijne w swoim stylu obrazy. Odcienie nie zlewają się tutaj ze sobą, a nawet
+                - można powiedzieć - gryzą się. W rezultacie daje to efekt wyrazistości, bijącego po oczach kontrastu barw.
+                Tematyką zawsze jest natura i człowiek, który nieświadomie znajduje swoje odbicie w otaczającym go świecie przyrody...
+              </div>
+            </Link>
+            <Link to="/proegzystencjalizm">
+              <div className='entry entry_proexistentialism'>
+                P R O E G Z Y S T E N C J A L I Z M charakteryzuje się niemałą płynnością kolorów. Jest próbą przetłumaczenia języka
+                ciała na język uczuć. Bo to właśnie ciało jest tutaj głównym narzędziem. To przez nie wyraża się
+                dążenie człowieka do kontaktu (a nawet jedności) z naturą, czyli główny motyw tego nurtu. To właśnie nagie ciało zamazuje granicę pomiędzy
+                człowiekiem a całą resztą...
+              </div>
+            </Link>
+            <Link to="/uniformizm">
+              <div className='entry entry_uniformism'>
+                U N I F O R M I Z M przedstawia te zachowania społeczne, jakich, delikatnie mówiąc, nie brakuje we współczesnym świecie.
+                Przewijającymi się tu postaciami będą nieco upiorne manekiny. Bez ubrań, bez wyrazu 
+                twarzy, a może nawet - jak to manekiny - bez życia...
+              </div>
+            </Link>
+          </div>
+        </div>
+        <NovelSection />
+        <FooterSection />
+      </section>
+    </>
+  )
+}
+
+export default HomePage

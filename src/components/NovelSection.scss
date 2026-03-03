@@ -1,0 +1,119 @@
+.novel_section {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-image: url("./../assets/heart-623530_1280.jpg");
+  background-position: center;
+  background-size: contain;
+  margin-top: 3rem;
+  padding-bottom: 7rem;
+  text-align: center;
+  color: #c7bebe;
+
+
+  .description {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    text-align: justify;
+    word-wrap: break-word;
+    padding: 0 1.5rem 6rem 1.5rem;
+
+  }
+
+  .download_link {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 0.5rem;
+    font-weight: bold;
+    font-size: 2rem;
+    text-decoration: none;
+    color: black;
+    width: fit-content;
+    border: 0.4rem solid rgb(59, 70, 87);
+    border-radius: 1rem;
+    background-color: rgb(61, 161, 128);
+    padding: 0.5rem;
+    transition: all 0.3s ease-in-out;
+  }
+
+  .download_link:hover {
+    color: rgb(217, 230, 197);
+    background-color: rgb(45, 165, 77);
+    border: 0.4rem solid rgb(141, 231, 123);
+  }
+
+  .download_link:active {
+    color: #0c0707;
+    background-color: #c7bebe;
+    border-color: #868181;
+  }
+
+  /* The icon itself */
+  .download_link .icon {
+    display: inline-block;
+    font-size: 1.3rem;
+    transition: transform 0.3s ease;
+    font-size: 2rem;
+    font-weight: 700;
+  }
+
+  /* Wiggle animation on hover */
+  .download_link:hover .icon {
+    animation: wiggle 0.4s ease-in-out infinite;
+  }
+
+  @keyframes wiggle {
+    0% {
+      transform: translateY(0);
+    }
+
+    25% {
+      transform: translateY(-3px);
+    }
+
+    50% {
+      transform: translateY(0);
+    }
+
+    75% {
+      transform: translateY(3px);
+    }
+
+    100% {
+      transform: translateY(0);
+    }
+  }
+
+
+  img {
+    width: 20%;
+    height: auto;
+  }
+
+}
+
+
+@media (max-width: 450px) {
+
+  .novel_section {
+
+    .download_link {
+      color: rgb(101, 250, 217);
+      padding: 0.6rem;
+      font-size: 1.4rem;
+      width: fit-content;
+    }
+
+    .download_link .icon {
+      animation: wiggle 0.4s ease-in-out infinite;
+      font-size: 2rem;
+      display: inline-block;
+      font-size: 190%;
+    }
+  }
+
+
+}
