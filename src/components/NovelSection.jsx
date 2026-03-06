@@ -21,11 +21,11 @@ const NovelSection = () => {
 
   return (
     <div className="novel_section">
-      <h2 className="headline">POBIERZ DARMOWĄ POWIEŚĆ</h2>
+      <h2 className="headline">POWIEŚĆ DO POBRANIA</h2>
       <p className="description">
         Na rynku mnóstwo jest kryminałów, a trochę za mało thrillerów.
         Postanowiłem nieco to zmienić.
-        Pobierzcie za darmo mój autorski thriller z akcją w mieście Lublin.
+        Pobierzcie mój autorski thriller z akcją w mieście Lublin.
       </p>
       <a
         href="/NEW_MIS/FLORIAN_MUSIAŁ_NIEMILEWIDZIANI.pdf"
