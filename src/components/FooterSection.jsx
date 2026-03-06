@@ -12,7 +12,7 @@ const FooterSection = () => {
                 </li>
             </ul>
             <p className='footer_section_signature'>
-                Florian Musiał 2026
+                © Florian Musiał 2026. Wszystkie prawa zastrzeżone.
             </p>
         </div>
     )
