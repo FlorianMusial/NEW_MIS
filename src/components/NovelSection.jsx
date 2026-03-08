@@ -21,12 +21,14 @@ const NovelSection = () => {
 
   return (
     <div className="novel_section">
-      <h2 className="headline">DARMOWA POWIEŚĆ DO POBRANIA</h2>
+      <h2 className="headline">DARMOWY E-BOOK DO POBRANIA</h2>
       <p className="description">
         Na rynku mnóstwo jest kryminałów, a trochę za mało thrillerów.
-        Postanowiłem nieco to zmienić.
-        Pobierzcie mój autorski thriller z akcją w mieście Lublin. Ewentualnych chętnych prosiłbym 
-        o dobrowolną darowiznę na konto:  56 8707 1045 0103 2969 3000 0001.
+        Postanowiłem nieco to zmienić :)
+        Pobierzcie mój autorski thriller z akcją w mieście Lublin - całkowicie za darmo. Jeśli chcielibyście
+        dobrowolnie wesprzeć mój projekt pisarski, możecie przekazać symboliczną darowiznę na moje konto: 56 8707 1045 0103 2969 3000 0001.
+        Tytuł przelewu: „Darowizna”. Darowizna jest całkowicie dobrowolna i nie daje żadnych dodatkowych praw ani świadczeń
+        - ebook pozostaje darmowy dla wszystkich.
       </p>
       <a
         href="/NEW_MIS/FLORIAN_MUSIAŁ_NIEMILEWIDZIANI.pdf"
