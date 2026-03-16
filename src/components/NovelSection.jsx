@@ -23,7 +23,7 @@ const NovelSection = () => {
     <div className="novel_section">
       <h2 className="headline">DARMOWY E-BOOK DO POBRANIA</h2>
       <p className="description">
-        Na rynku mnóstwo jest thrillerów z akcją w Lublinie.
+        Na rynku nie widać zbyt wielu thrillerów z akcją w Lublinie.
         Postanowiłem nieco to zmienić :)
         Pobierzcie mój autorski dreszczowiec - całkowicie za darmo. Z powodu choroby nie mogę już angażować 
         się w pracę fizyczną, która do tej pory zapewniała mi utrzymanie. Dlatego jeśli chcielibyście
