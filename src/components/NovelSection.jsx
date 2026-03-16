@@ -23,11 +23,11 @@ const NovelSection = () => {
     <div className="novel_section">
       <h2 className="headline">DARMOWY E-BOOK DO POBRANIA</h2>
       <p className="description">
-        Na rynku mnóstwo jest kryminałów, a trochę za mało thrillerów.
+        Na rynku mnóstwo jest thrillerów z akcją w Lublinie.
         Postanowiłem nieco to zmienić :)
-        Pobierzcie mój autorski thriller z akcją w mieście Lublin - całkowicie za darmo. Z powodu choroby nie mogę już angażować 
+        Pobierzcie mój autorski dreszczowiec - całkowicie za darmo. Z powodu choroby nie mogę już angażować 
         się w pracę fizyczną, która do tej pory zapewniała mi utrzymanie. Dlatego jeśli chcielibyście
-        dobrowolnie wesprzeć mój projekt pisarski, możecie przekazać niewielką darowiznę na moje konto: 56 8707 1045 0103 2969 3000 0001.
+        dobrowolnie wesprzeć mój projekt pisarski, możecie przekazać niewielką darowiznę na konto: 56 8707 1045 0103 2969 3000 0001.
         Tytuł przelewu: „Darowizna”. Darowizna jest całkowicie dobrowolna i nie jest związana z żadnymi dodatkowymi prawami ani świadczeniami
         - ebook pozostaje darmowy dla wszystkich.
       </p>
