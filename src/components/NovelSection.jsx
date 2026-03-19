@@ -25,11 +25,7 @@ const NovelSection = () => {
       <p className="description">
         Na rynku nie widać zbyt wielu thrillerów z akcją w Lublinie.
         Postanowiłem nieco to zmienić :)
-        Pobierzcie mój autorski dreszczowiec - całkowicie za darmo. Z powodu choroby nie mogę już angażować 
-        się w pracę fizyczną, która do tej pory zapewniała mi utrzymanie. Dlatego jeśli chcielibyście
-        dobrowolnie wesprzeć mój projekt pisarski, możecie przekazać niewielką darowiznę na konto: 56 8707 1045 0103 2969 3000 0001.
-        Tytuł przelewu: „Darowizna”. Darowizna jest całkowicie dobrowolna i nie jest związana z żadnymi dodatkowymi prawami ani świadczeniami
-        - ebook pozostaje darmowy dla wszystkich. Każda darowizna pozwala mi poświęcić nieco więcej czasu na pisanie, które kocham.
+        Pobierzcie mój autorski dreszczowiec. 
       </p>
       <a
         href="/NEW_MIS/FLORIAN_MUSIAŁ_NIEMILEWIDZIANI.pdf"
