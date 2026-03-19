@@ -25,7 +25,7 @@ const NovelSection = () => {
       <p className="description">
         Na rynku nie widać zbyt wielu thrillerów z akcją w Lublinie.
         Postanowiłem nieco to zmienić :)
-        Pobierzcie mój autorski dreszczowiec. 
+        Poniżej możecie pobrać mój autorski dreszczowiec. 
       </p>
       <a
         href="/NEW_MIS/FLORIAN_MUSIAŁ_NIEMILEWIDZIANI.pdf"
