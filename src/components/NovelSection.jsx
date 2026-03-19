@@ -21,7 +21,7 @@ const NovelSection = () => {
 
   return (
     <div className="novel_section">
-      <h2 className="headline">DARMOWY E-BOOK DO POBRANIA</h2>
+      <h2 className="headline">E-BOOK DO POBRANIA</h2>
       <p className="description">
         Na rynku nie widać zbyt wielu thrillerów z akcją w Lublinie.
         Postanowiłem nieco to zmienić :)
