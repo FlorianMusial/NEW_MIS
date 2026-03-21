@@ -23,9 +23,10 @@ const NovelSection = () => {
     <div className="novel_section">
       <h2 className="headline">E-BOOK DO POBRANIA</h2>
       <p className="description">
-        Na rynku nie widać zbyt wielu thrillerów z akcją w Lublinie.
-        Postanowiłem nieco to zmienić :)
-        Poniżej możecie pobrać mój autorski dreszczowiec. 
+
+        W Lublinie znika kobieta. Jej brat wyrusza na poszukiwania, ale nigdy nie spodziewałby się, na co i na kogo trafi po drosze.
+        "Niemilewidziani" to przejażdżka po ciemnych zakamarkach ludzkiego umysłu oraz manifestacja zasadniczego pytania: "Co w życiu
+        jest tak na prawdę ważne?".
       </p>
       <a
         href="/NEW_MIS/FLORIAN_MUSIAŁ_NIEMILEWIDZIANI.pdf"
