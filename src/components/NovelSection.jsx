@@ -24,7 +24,7 @@ const NovelSection = () => {
       <h2 className="headline">E-BOOK DO POBRANIA</h2>
       <p className="description">
 
-        W Lublinie znika kobieta. Jej brat wyrusza na poszukiwania, ale nigdy nie spodziewałby się, na co i na kogo trafi po drosze.
+        W Lublinie znika kobieta. Jej brat wyrusza na poszukiwania, ale nigdy nie spodziewałby się, na co trafi po drosze.
         "Niemilewidziani" to przejażdżka po ciemnych zakamarkach ludzkiego umysłu oraz manifestacja zasadniczego pytania: "Co w życiu
         jest tak na prawdę ważne?".
       </p>
